@@ -11,6 +11,8 @@ import UIKit
 class AddTaskViewController: UIViewController {
 
     @IBOutlet weak var etNameTask: UITextField!
+    @IBOutlet weak var etDay: UITextField!
+    @IBOutlet weak var etDescription: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,11 +25,13 @@ class AddTaskViewController: UIViewController {
         
         //declare task
         let nameTask = Task(context: context) //declare nameTask as context from entyty task
-        nameTask.name_task = etNameTask.text //declare is the nameTask.name_task field is from etNameTask.text
-        
+         //declare is the nameTask.name_task field is from etNameTask.text
+        nameTask.name_task = etNameTask.text
+        nameTask.day_task = etDay.text
+        nameTask.desc_task = etDescription.text
          // Save the data to coredata
         //check are value from etTask is nil or not
-        if etNameTask.text == "" {
+        if etNameTask.text! == "" && etDay.text! == "" && etDescription.text! == "" {
             //condition if nil
             //display alert dialog
             let alertController = UIAlertController(title: "Warning",

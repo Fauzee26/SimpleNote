@@ -17,6 +17,7 @@
 		A016E0B41F9F1BEA00C6A876 /* Simple_NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016E0B31F9F1BEA00C6A876 /* Simple_NoteUITests.swift */; };
 		A016E0C21F9F1EBB00C6A876 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016E0C11F9F1EBB00C6A876 /* NoteTableViewController.swift */; };
 		A016E0C41F9F1F1D00C6A876 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016E0C31F9F1F1D00C6A876 /* AddTaskViewController.swift */; };
+		A016E0C61F9F43FF00C6A876 /* DescTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016E0C51F9F43FF00C6A876 /* DescTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A016E0B51F9F1BEA00C6A876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A016E0C11F9F1EBB00C6A876 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		A016E0C31F9F1F1D00C6A876 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		A016E0C51F9F43FF00C6A876 /* DescTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A016E0901F9F1BE900C6A876 /* AppDelegate.swift */,
 				A016E0921F9F1BE900C6A876 /* ViewController.swift */,
 				A016E0941F9F1BE900C6A876 /* Main.storyboard */,
+				A016E0C51F9F43FF00C6A876 /* DescTableViewCell.swift */,
 				A016E0C11F9F1EBB00C6A876 /* NoteTableViewController.swift */,
 				A016E0C31F9F1F1D00C6A876 /* AddTaskViewController.swift */,
 				A016E09A1F9F1BE900C6A876 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			files = (
 				A016E0931F9F1BE900C6A876 /* ViewController.swift in Sources */,
 				A016E0C21F9F1EBB00C6A876 /* NoteTableViewController.swift in Sources */,
+				A016E0C61F9F43FF00C6A876 /* DescTableViewCell.swift in Sources */,
 				A016E0911F9F1BE900C6A876 /* AppDelegate.swift in Sources */,
 				A016E0991F9F1BE900C6A876 /* Simple_Note.xcdatamodeld in Sources */,
 				A016E0C41F9F1F1D00C6A876 /* AddTaskViewController.swift in Sources */,
